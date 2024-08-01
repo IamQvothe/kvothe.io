@@ -11,7 +11,7 @@
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <title>Home</title>
 </head>
-<body id="custombody" class="flex flex-col min-h-screen ">
+<body id="custombody" class="flex flex-col min-h-screen bg-gray-900 text-white text-lg">
 
     <div class="flex flex-1">
         <nav class="w-24 h-full tk-text fixed top-0 left-0 flex flex-col text-sm">
@@ -27,12 +27,31 @@
         <main class="flex-1 ml-32 p-8 border border-solid shadow-2xl">
 
             <section class="border-b mx-auto max-w-4 tk-text p-2">
-                <p id="#top">► Tanner Reichenbach</p>
+                <p id="#top">► Blog</p>
             </section>
 
-            <div class="max-w-4xl mx-auto ">
-                <p class="tk-text">Hi! My name is Tanner. I am currently a software engineering student at WGU. This site will serve as my portfolio, blog, resume, and an opportunity for myself to build on my web development skills.</p>
+            <div class="max-w-4xl mx-auto mb-8">
+                <p class="tk-text">Here are my blog posts, specifically my writeups for classes I have taken at WGU. I hope this will serve as a resource for future Software Engineering students at WGU who may find themselves stuck from time to time.</p>
             </div>
+
+            <div class="container mx-auto p-4">
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='/src/blog/d326.html';">
+                        <h2 class="text-xl font-semibold mb-2">D326 - Advanced Data Management Writeup.</h2>
+                        <p class="text-gray-400">My process for tackling D326</p>
+                    </div>
+                    <div class="post bg-gray-800 p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='post2.html';">
+                        <h2 class="text-xl font-semibold mb-2">Post Title 2</h2>
+                        <p class="text-gray-400">Summary of the post 2...</p>
+                    </div>
+                    <div class="post bg-gray-800 p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='post2.html';">
+                        <h2 class="text-xl font-semibold mb-2">Post Title 2</h2>
+                        <p class="text-gray-400">Summary of the post 2...</p>
+                    </div>
+                    <!-- Add more posts as needed -->
+                </div>
+            </div>
+
             <section class="relative h-full">
                 <section class="absolute bottom-0 right-0 p-8">
                     <a class="tk-text" href="#top">Back to top.</a>
