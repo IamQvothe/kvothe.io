@@ -7,6 +7,14 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
+#custombody {
+  background-color: rgb(17, 32, 56);
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 380;
+  font-style: normal;
+}
+
 .tk-text {
   color: rgb(154, 227, 244);
 }
