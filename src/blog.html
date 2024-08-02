@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body id="custombody" class="flex flex-col min-h-screen bg-gray-900 text-white text-lg">
+
+    <div class="flex flex-1">
+        <nav class="w-24 h-full tk-text fixed top-0 left-0 flex flex-col text-sm">
+            <div class="p-4 text-xl font-bold"></div>
+            <ul class="flex-1">
+                <li class="p-4 hover:text-white hover:underline"><a href="index.html">Home -</a></li>
+                <!-- <li class="p-4 hover:text-white hover:underline"><a href="about.html">About -</a></li> -->
+                <li class="p-4 hover:text-white hover:underline"><a href="blog.html">Blog -</a></li>
+                <li class="p-4 hover:text-white hover:underline"><a href="contact.html">Contact -</a></li>
+            </ul>
+        </nav>
+
+        <main class="flex-1 ml-32 p-8 border border-solid shadow-2xl">
+
+            <section class="border-b mx-auto max-w-4 tk-text p-2">
+                <p id="#top">► Blog</p>
+            </section>
+
+            <div class="max-w-4xl mx-auto mb-8">
+                <p class="tk-text">Here are my blog posts, specifically my writeups for classes I have taken at WGU. I hope this will serve as a resource for future Software Engineering students at WGU who may find themselves stuck from time to time.</p>
+            </div>
+
+            <div class="container mx-auto p-4">
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='/src/blog/d326.html';">
+                        <h2 class="text-xl font-semibold mb-2">D326 - Advanced Data Management Writeup.</h2>
+                        <p class="text-gray-400">My process for tackling D326</p>
+                    </div>
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='/src/blog/d277.html';">
+                        <h2 class="text-xl font-semibold mb-2">D277 - Front-End Web Development Writeup</h2>
+                        <p class="text-gray-400">My process for tackling D277</p>
+                    </div>
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='post2.html';">
+                        <h2 class="text-xl font-semibold mb-2">D479 - User Experience Design</h2>
+                        <p class="text-gray-400">My process for tackling D479 - Under construction</p>
+                    </div>
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='post2.html';">
+                        <h2 class="text-xl font-semibold mb-2">D279 - User Interface Design</h2>
+                        <p class="text-gray-400">My process for tackling D279 - Under construction</p>
+                    </div>
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='post2.html';">
+                        <h2 class="text-xl font-semibold mb-2">D280 - JavaScript Programming</h2>
+                        <p class="text-gray-400">My process for tackling D280 - Under construction</p>
+                    </div>
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='post2.html';">
+                        <h2 class="text-xl font-semibold mb-2">D335 - Introduction to Programming in Python</h2>
+                        <p class="text-gray-400">My process for tackling D335 - under construction</p>
+                    </div>
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='post2.html';">
+                        <h2 class="text-xl font-semibold mb-2">C949 - Data Strictires and Algorithms I</h2>
+                        <p class="text-gray-400">My process for tackling C949 - under construction</p>
+                    </div>
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='post2.html';">
+                        <h2 class="text-xl font-semibold mb-2">Under construction</h2>
+                        <p class="text-gray-400"></p>
+                    </div>
+                    <div class="post blogbg p-6 rounded-lg shadow-lg cursor-pointer tk-text hover:bg-gray-700" onclick="window.location.href='post2.html';">
+                        <h2 class="text-xl font-semibold mb-2">Under construction</h2>
+                        <p class="text-gray-400"></p>
+                    </div>
+                    <!-- Add more posts as needed -->
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="tk-text text-center p-4 text-sm">
+        <p>Theme is inspired by Devsalife Tokyo Night nvim setup and Luciano Remes. Thanks for the inspiration and I love your content.</p>
+        <p>テーマは Devsalife Tokyo Nights neovim セットアップと Luciano Remes からインスピレーションを得ています。インスピレーションをありがとう。あなたのコンテンツが大好きです。</p>
+        <a class="tk-text text-xl" href="#top">Back to top.</a>
+    </footer>
+
+</body>
+</html>

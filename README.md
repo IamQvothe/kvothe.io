@@ -1,0 +1,2 @@
+# kvothe.io
+# I am a 3rd year software engineering student at WGU. This site will serve as my playground to build my web development skills as I learn new technologies, my portfolio to list my skills and a blog to post my writeups for various things.

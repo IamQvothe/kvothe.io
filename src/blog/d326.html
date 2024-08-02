@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body id="custombody" class="flex flex-col min-h-screen text-lg">
+
+    <div class="flex flex-1">
+        <nav class="w-24 h-full tk-text fixed top-0 left-0 flex flex-col text-sm">
+            <div class="p-4 text-xl font-bold"></div>
+            <ul class="flex-1">
+                <li class="p-4 hover:text-white hover:underline"><a href="../index.html">Home -</a></li>
+                <!-- <li class="p-4 hover:text-white hover:underline"><a href="../about.html">About -</a></li> -->
+                <li class="p-4 hover:text-white hover:underline"><a href="../blog.html">Blog -</a></li>
+                <li class="p-4 hover:text-white hover:underline"><a href="../contact.html">Contact -</a></li>
+            </ul>
+        </nav>
+
+        <main class="flex-1 ml-32 p-8 border border-solid shadow-2xl">
+
+            <section class="border-b mx-auto max-w-4 tk-text p-2">
+                <p id="#top">► Advanced Data Management (D326)</p>
+            </section>
+
+            <div class="max-w-4xl mx-auto tk-text text-lg">
+            <br>
+            <h1 class="underline text-lg font-medium">The Business Problem.</h1>
+            <br>
+            <ol>
+                <li class="list-decimal">The business problem: do NOT over-complicate this, I did that at first and once I got very far in I saw how difficult I was making this for myself and had to start all over. My business problem was "A report to determine which customers are the most frequent renters AND which customers have generated the highest revenue." I picked this question because I came up with an idea what if said company wanted to implement a reward system? how would they determine who gets some rewards? I thought how casinos start offering you free meals/rooms once you gamble a certain amount but a better approach would maybe thought of it as Starbucks/Dutch Bros point system. </li>
+                <br>
+                <li class="list-decimal ">This is in PostgreSQL which is NOT challenging but does introduce some new concepts like EVENT TRIGGERS and CREATE/REPLACE FUNCTION/PROCEDURE(s) which you WILL need to use in your PA they are not hard but will seem confusing at first. I personally used ChatGPT to break it down for me. Anything I didn't understand I had a legit back and forth conversation with ChatGPT and I was able to comprehend it. </li>
+                <br>
+                <li class="list-decimal">YOU CAN IF YOU WANT but I do not recommend using the virtual environment. It's slow, buggy, overall not a good experience. You can download PGAdmin 4 for FREE and the exact database they use in the virtual environment <a href="https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/" target="_blank" class="hover:text-white underline">HERE</a> Takes a little work to set up but there is TONS of documentation on Reddit to do this (took me about an hour) </li>
+                <br>
+                <li class="list-decimal">This may just be me that made this mistake. But EVERY question you answer for the PA test it first in PGAdmin and verify it works and produces the result you want. I don't know why I didn't do that but I wrote the ENTIRE thing and started slamming it in and had a bunch of problems and had to spend several hours fixing all of this. </li>
+                <br>
+                <li class="list-decimal">For the video. All you are doing is taking each SQL command you wrote, briefly saying what it does and running it. </li>
+            </ol>
+            <br>
+            <p> <a href="https://github.com/IamQvothe/Adv_data_mangement/tree/main" target="_blank" class="hover:text-white underline">HERE</a> is my writeup if anyone wants to see it. Not amazing by any means but I did pass with no hiccups. </p>
+            </div>
+            
+
+        </main>
+    </div>
+
+    <footer class="tk-text text-center p-4 text-sm">
+        <p>Theme is inspired by Devsalife Tokyo Night nvim setup and Luciano Remes. Thanks for the inspiration and I love your content.</p>
+        <p>テーマは Devsalife Tokyo Nights neovim セットアップと Luciano Remes からインスピレーションを得ています。インスピレーションをありがとう。あなたのコンテンツが大好きです。</p>
+        <a class="tk-text text-xl" href="#top">Back to top.</a>
+    </footer>
+
+</body>
+</html>
